@@ -1,0 +1,337 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Libre Franklin', sans-serif;
+	background-color: #fff;
+	color: #6C6C6C;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #000000;
+}
+
+h4 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #D77474;
+	font-size: 14px;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #6C6C6C;
+}
+
+.header {
+	display: flex;
+	padding: 13px 0px 38px 0px;
+}
+
+.company-name {
+	margin: 0px 0px 0px 135px;
+	font-family: 'Pacifico', cursive;
+	font-size: 33px;
+	width: 110px;
+	color: #000000;
+}
+
+.nav-list {
+	display: flex;
+	margin-left: 926px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.goinfo {
+	letter-spacing: 0.1em;
+	padding: 0px 40px 0px 0px;
+}
+
+.goinfo:last-child {
+	border-right: 1px solid springgreen;
+	border-color: #EBEBEB;
+}
+
+.goinfo-main a {
+	color: #AC1313;
+}
+
+.buy {
+	display: flex;
+	padding-top: 20px;
+	padding-left: 16px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.fas {
+	display: block;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+
+.cart {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.collection {
+	background: url(../img/back-collections.png);
+}
+
+.wrapper {
+	display: flex;
+	padding: 94px 144px 114px 144px;
+}
+
+.content {
+	width: 576px;
+	margin: 0 auto;
+}
+
+.content-pomp {
+	padding: 0;
+	margin: 0;
+}
+
+.content-porce {
+	font-size: 48px;
+	width: 500px;
+	padding: 0;
+	margin: 0;
+	color: #000000;
+}
+
+.red {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #AC1313;
+	font-size: 68px;
+}
+
+.content p {
+	margin: 0;
+	font-size: 16px;
+}
+
+.content-btn {
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	width: 201px;
+	height: 62px;
+	background-color: #AC1313;
+	color: #FFF;
+	text-align: center;
+	padding: 19px 0px 21px 0px ;
+	margin-top: 51px;
+}
+
+.desktop {
+	width: 784px;
+	height: 445px;
+}
+
+.porclain {
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 151px;
+}
+
+.poduct {
+	margin: 0;
+}
+
+.porclain-h {
+	font-size: 40px;
+	margin: 0;
+}
+
+.vases {
+	display: flex;
+	margin: 63px 0px 0px 73px;
+}
+
+.vases-hand {
+	color: #DBDBDB;
+	font-size: 18px;
+	letter-spacing: 0.2em;
+	transform: rotate(-90deg);
+	width: 280px;
+	height: 34px;
+	margin: 100px 0px 0px 0px;
+}
+
+.all-rectangle {
+	display: flex;
+	width: 1172px;
+	justify-content: space-between;
+}
+
+.rectangle-one {
+	width: 240px;
+	height: 240px;
+	background-color: #E4B366;
+	border-radius: 100%;
+	border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
+.rectangle-two {
+	width: 240px;
+	height: 240px;
+	background-color: #F05B10;
+	border-radius: 100%;
+	border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
+.rectangle-three {
+	width: 240px;
+	height: 240px;
+	background-color: #A21010;
+	border-radius: 100%;
+	border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.vase {
+	padding: 50px 0px 0px 0px;
+}
+.mugs {
+	padding: 50px 0px 0px 0px;
+}
+
+.plates {
+	padding: 50px 0px 0px 0px;
+}
+
+.vases-vase {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: 0.2em;
+}
+
+.porclain-inform {
+	display: flex;
+	margin: 90px auto;
+	width: 1175px;
+	justify-content: space-between;
+}
+
+.inform {
+	width: 510px;
+}
+
+.pottery {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 29px;
+	width: 280px;
+	text-align: left;
+}
+
+.pottery-two {
+	width: 320px;
+}
+
+.inf {
+	width: 505px;
+	text-align: left;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+
+.gallery {
+	display: block;
+	margin-left: 250px;
+	width: 1175px;
+	justify-content: space-between;
+}
+
+.gallery-one {
+	display: flex;
+}
+
+.gold {
+	width: 500px;
+	background-image: url(../img/back-vase.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 500px 220px;
+}
+
+.gold-black {
+	display: block;
+	margin: auto;
+}
+
+.gold-info {
+	width: 390px;
+	margin-top: 140px;
+	margin-left: 200px;
+}
+
+.gold-pot {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.description {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	padding-bottom: 18px;
+}
+
+.detals {
+	color: #000000;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.ceramic {
+	display: block;
+}
+
+.gallery-two {
+	display: flex;
+}
+
+.gold-info-two {
+	padding-top: 140px;
+	margin-right: 200px;
+	width: 400px;
+	margin-left: 100px;
+}
+
+.name-coll {
+	text-align: center;
+}
+
+.our {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #D77474;
+}
+
+.potcol {
+	font-size: 40px;
+    margin: 0;
+}
